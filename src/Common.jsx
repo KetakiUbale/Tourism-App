@@ -11,9 +11,9 @@ const Common = (props) => {
                        <div className="row">
                        <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column ">
                          <h1>{props.name}
-                         <strong className="brand-name "> Happy Journey</strong></h1>
+                         <strong className="brand-name "> Happy Journey </strong></h1>
                          <h2 className="my-3">
-                             We are providing some tourism place visit it
+                             We are providing some tourism place visit it..
                          </h2>
                          <div className="mt-3">
                          <NavLink to={props.visit} className="btn-get-started "> {props.btname} </NavLink>

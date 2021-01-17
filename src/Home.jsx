@@ -8,7 +8,7 @@ const Home = () => {
        <Common 
        name="Enjoy with" 
        imgsrc={web} 
-       visit="/contact" 
+       visit="/package" 
        btname="Get Started"/>
         </>
     );
