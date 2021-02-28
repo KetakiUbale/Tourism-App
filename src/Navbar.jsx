@@ -30,6 +30,10 @@ const Navbar = () => {
         <li className="nav-item">
           <NavLink activeClassName="menu_active" exact className="nav-link" to="contact">Contact Us</NavLink>
         </li>
+
+        <li className="nav-item">
+          <NavLink activeClassName="menu_active" exact className="nav-link" to="add">Add Package</NavLink>
+        </li>
         
        
       </ul>

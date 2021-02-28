@@ -1,6 +1,7 @@
 import React from "react";
 import web from "./Image/usa-best-places-miami-5.jpg";
 import {NavLink} from "react-router-dom";
+import { Button } from 'reactstrap';
 const Card = (props) => {
     return(
         <>
@@ -12,6 +13,8 @@ const Card = (props) => {
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <NavLink to="DetailInfo" className="btn btn-primary">In Detail Info
                                 </NavLink>
+                                <NavLink className="btn btn-warning mr-1" to="/edit/1">Edit</NavLink>
+                      <Button color="danger">Delete</Button>
                                   </div>
                               </div>
                       </div>

@@ -1,9 +1,19 @@
 import React from "react";
 import Card from "./Card";
 import Sdata from "./Sdata";
+import {NavLink} from 'react-router-dom';
+import{
+    ListGroup,
+    ListGroupItem,
+    Button
+} from 'reactstrap';
+
 const Package = () => {
     return(
+        
         <>
+
+        
         <div className="my-5">
            <h1 className="text-center"><b><i><u>Our Packages</u></i></b></h1>
         </div>
@@ -19,8 +29,9 @@ const Package = () => {
                 </div>
             </div>
         </div>
+       </>
         
-        </>
+        
     );
 };
 export default Package;

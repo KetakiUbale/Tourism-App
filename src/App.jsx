@@ -8,7 +8,7 @@ import Contact from "./Contact";
 import Package from "./Package";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-
+import  AddPackage  from "./AddPackage";
 const App = () => {
     return  (
         <>
@@ -19,6 +19,9 @@ const App = () => {
             <Route exact path="/about" component={About}/>
             <Route exact path="/contact" component={Contact}/>
             <Route exact path="/package" component={Package}/>
+            <Route exact path="/add" component={AddPackage}/>
+            
+           
             <Redirect to="/"/>
         </Switch>
         <Footer />
